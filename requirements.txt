@@ -1,0 +1,23 @@
+# Project Requirements: Resume Matcher & Outreach AI
+
+## Core Dependencies
+- @google/genai: ^1.29.0 (Gemini AI Integration)
+- express: ^4.21.2 (Backend Server)
+- react: ^19.0.0 (Frontend UI)
+- motion: ^12.23.24 (Animations)
+- lucide-react: ^0.546.0 (Icons)
+- multer: ^1.4.5-lts.1 (File Upload Handling)
+- pdf-parse: ^1.1.1 (PDF Text Extraction)
+- mammoth: ^1.9.0 (DOCX Text Extraction)
+
+## System Requirements
+- Node.js: 18.x or higher
+- NPM: 9.x or higher
+- Gemini API Key (configured in environment variables)
+
+## Features
+- User Authentication (Simulated)
+- PDF/DOCX Resume Upload & Text Extraction
+- AI-based Resume vs Job Description Comparison
+- Automated Recruiter Outreach Email Generation
+- Multi-view Dashboard (Dashboard, Compare, Templates, Email History)
